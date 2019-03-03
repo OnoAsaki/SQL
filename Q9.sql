@@ -1,0 +1,1 @@
+select category_name,sum(item_price) as total_price from item_category inner join item on item_category.category_id = item.category_id group by category_name order by total_price DESC;

@@ -1,0 +1,1 @@
+insert into item_category (category_name) values('家具'),('食品'),('本');
